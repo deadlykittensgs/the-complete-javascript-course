@@ -269,21 +269,21 @@
 
 //  console.log(fiveOrMore(ArrayOfStrings))
 
-let sentence = "hello world is world my hello as good as a good banana"
-function countWords (str) {
-    let counterDict = {}
-    let stringToArray = str.replaceAll(","," ").split(' ')
+// let sentence = "hello world is world my hello as good as a good banana"
+// function countWords (str) {
+//     let counterDict = {}
+//     let stringToArray = str.replaceAll(","," ").split(' ')
 
-    for (let i = 0; i < stringToArray.length; i++) {
-       let currentWord = stringToArray[i]
-        if ( currentWord in counterDict){
-            counterDict[currentWord] = counterDict[currentWord] +1}
-            else {
-                counterDict[currentWord] = 1
-            }
-        }
-        return counterDict
-    }
+//     for (let i = 0; i < stringToArray.length; i++) {
+//        let currentWord = stringToArray[i]
+//         if ( currentWord in counterDict){
+//             counterDict[currentWord] = counterDict[currentWord] +1}
+//             else {
+//                 counterDict[currentWord] = 1
+//             }
+//         }
+//         return counterDict
+//     }
  
-    console.log(countWords(sentence))
+//     console.log(countWords(sentence))
 
